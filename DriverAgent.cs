@@ -65,7 +65,6 @@ public class DriverAgent : Agent {
         //AddVectorObs(Target.position);
         //AddVectorObs(this.transform.position);
 
-        // Agent velocity
         AddVectorObs((float)distanceRight);
         AddVectorObs((float)distanceLeft);
         AddVectorObs((float)distanceFront);
